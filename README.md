@@ -4,7 +4,7 @@ wordstat
 
 **Data Structures**
 
-I chose to store the strings in a binary tree, since it seemed like the logical choice of data structureand can 
+I chose to store the strings in a binary tree, since it seemed like the logical choice of data structure and can 
 be easily traversed lexicographically with any string as the tree’s root/head.
 The slight modification I made to a traditional binary tree is the addition of a third dimension of 
 “permutation nodes”, as I refer to them. Each node in the tree (can) contain a linked list of case sensitive 
