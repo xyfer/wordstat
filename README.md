@@ -27,7 +27,7 @@ every subsequent word seen was greater than the last, this would also result in 
 on average, the case will be n(log(n)) * k , k being an unknown factor dependent on the number of 
 permutation linked lists the tree winds up containing.
 
-*Challenges*
+**Challenges**
 
 Difficulties during the assignment were primarily getting Segfaults, as my TA informed us were to be 
 expected. Managing pointers was a bit tricky to someone used to the object oriented nature of Java, and 
