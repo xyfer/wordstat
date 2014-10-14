@@ -2,7 +2,7 @@ wordstat
 ========
 
 
-*Data Structures*
+**Data Structures**
 
 I chose to store the strings in a binary tree, since it was a fairly elegant structure to implement and can 
 easily print the strings lexicographically with any string as the tree’s root/head.
@@ -15,7 +15,7 @@ end of the chain. If it has, it simply updates that root of that list’s permut
 individual node or struct tree* as they’re known is determined by the length of the array (+1 for null sig) 
 inserted at the current call of ProcessStr(), making each node a different size and conserving memory.
 
-*Big O*
+**Big O**
 
 Normally, an insertion in a binary tree takes log(n) time – so inserting n strings from a .txt document 
 would take nlog(n) operations. However, since each node in this tree also a linked list if it has multiple 
