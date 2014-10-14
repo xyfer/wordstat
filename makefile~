@@ -1,0 +1,18 @@
+COMPILER = gcc
+
+all: wordstat
+
+wordstat: wordstat.o node.o
+	$(COMPILER) wordstat.o node.o -o wordstat
+
+tree.o:
+	$(COMPILER) -c  tree.c
+
+wordstat.o:
+	$(COMPILER) -c wordstat.c
+
+
+
+clean:
+	rm -rf *o 
+	rm -rf wordstat
